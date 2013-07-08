@@ -234,3 +234,4 @@ __END__
 
 BUGS:
  - no "resume" or "check" if podcasts were interrupted during download
+ - prettify index.html

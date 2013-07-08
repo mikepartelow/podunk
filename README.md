@@ -6,7 +6,7 @@ A simple commandline podcast downloader.
 
 ## License
 
-All material copyright 2012, Open Knowledge Foundation.
+All material copyright 2013, Mike Partelow.
 
 All data (and associated content) is placed in the Public Domain using the
 [Public Domain Dedication and
@@ -21,4 +21,4 @@ under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 2) ./podunk.rb
 </pre>
 
-Run podunk regularly to keep up to date with your subscriptions.
+Run podunk regularly to keep up to date with your subscriptions.  The file www/index.html is updated to reflect current podcast library.
