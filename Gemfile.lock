@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    nokogiri (1.5.9)
+    sanitize (2.0.3)
+      nokogiri (>= 1.4.4, < 1.6)
+      nokogiri (>= 1.4.4, < 1.6)
+    syndication (0.6.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sanitize
+  syndication

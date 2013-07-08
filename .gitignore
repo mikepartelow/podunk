@@ -1,0 +1,6 @@
+*.cache
+*.xml
+.DS_Store
+.podunkdb.json
+www/index.html
+podcasts/*
