@@ -10,7 +10,7 @@ require 'fileutils'
 require 'time'
 require 'net/http'
 
-DEV_MODE = false
+DEV_MODE = true
 DEV_MODE_ERRORS = false
 
 class Episode
@@ -210,7 +210,7 @@ class Podunk
         when 'podcast_dir'
           cfg[:podcast_dir] = the_rest
         when 'feed'
-          name, url = the_rest.split(/=>/, 2).map(&:strip)
+          name, url = the_rest.split(/\=>/, 2).map(&:strip)
           if @db[name]
             @db[name][:url] = url
           else

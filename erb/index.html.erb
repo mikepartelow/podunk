@@ -17,7 +17,7 @@
         <h2><%= name %></h2>
 
         <table class="table table-bordered table-striped">    
-          <% data[:episodes].select { |e| e.local_path }.each do |e| %>            
+          <% data.fetch(:episodes, []).select { |e| e.local_path }.each do |e| %>            
             <tr>
               <td class="span2">
                 <strong><%= date(e.published_at) %></strong>
